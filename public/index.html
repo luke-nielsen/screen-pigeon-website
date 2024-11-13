@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Screen Pigeon - Providing accountability technology to help parents keep their kids safe online.">
+    <meta name="keywords" content="Screen Pigeon, accountability laptops, parental control, online safety for kids, safe browsing, laptop for kids">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Screen Pigeon">
+    <meta name="theme-color" content="#4a90e2"> <!-- Browser tab and mobile status bar color -->
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.screenpigeon.io/">
+    <meta property="og:title" content="Screen Pigeon | Accountability Laptops">
+    <meta property="og:description" content="Providing laptops with accountability software to keep kids safe online.">
+    <meta property="og:image" content="https://www.screenpigeon.io/path/to/image.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.screenpigeon.io/">
+    <meta name="twitter:title" content="Screen Pigeon | Accountability Laptops">
+    <meta name="twitter:description" content="Providing laptops with accountability software to keep kids safe online.">
+    <meta name="twitter:image" content="https://www.screenpigeon.io/path/to/image.jpg">
+
+    <!-- Mobile App Capabilities -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Screen Pigeon">
+    <meta name="format-detection" content="telephone=no"> <!-- Prevents automatic linking of phone numbers -->
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.screenpigeon.io/">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/src/images/sp12.png" type="image/x-icon">
+</head>
+
+<body class="font-sans text-gray-800 antialiased">
+
+      <!-- Header with Overlay -->
+      <header class="fixed top-0 w-full bg-gray-800 bg-opacity-90 backdrop-blur-lg z-50 shadow-lg">
+        <div class="container mx-auto flex items-center justify-between py-4 px-6">
+            <a href="#hero" class="flex items-center space-x-2">
+                <img src="/src/images/sp12.png" alt="Screen Pigeon Logo" class="h-10">
+                <span class="text-white font-bold">ScreenPigeon.io</span>
+                
+            </a>
+            <nav class="hidden lg:flex space-x-8 text-white md:items-center">
+                <a href="#about" class="hover:text-yellow-400 transition duration-300">About</a>
+                <a href="#products" class="hover:text-yellow-400 transition duration-300">Products</a>
+                <a href="faqs.html" class="hover:text-yellow-400 transition duration-300">FAQ's</a>
+                <a href="#contact" class="hover:text-yellow-400 transition duration-300">Contact</a>
+                <a href="screenshotbased.html" class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Screenshot-Based Accountability</a>
+                <a href="#products" class="bg-yellow-500 px-4 py-2 rounded-lg text-gray-900 hover:bg-yellow-600 transition duration-300">Order Now</a>
+            </nav>
+            <button class="lg:hidden text-white text-2xl" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-gray-800 text-white p-4 pt-20 fixed w-full z-40">
+        <a href="#about" class="block py-2 hover:text-yellow-400">About</a>
+        <a href="#products" class="block py-2 hover:text-yellow-400">Products</a>
+        <a href="faqs.html" class="block py-2 hover:text-yellow-400">FAQ's</a>
+        <a href="#contact" class="block py-2 hover:text-yellow-400">Contact</a>
+        <a href="screenshotbased.html" class="block py-2 bg-blue-600 rounded-lg text-center">Screenshot-Based Accountability</a>
+        <a href="#products" class="block py-2 mt-2 bg-yellow-500 text-center rounded-lg">Order Now</a>
+    </div>
+
+    <!-- Hero Section with Pixelated Background -->
+    <section id="hero" class="bg-gradient-to-br from-gray-800 to-gray-900 text-white h-screen flex items-center justify-center">
+        <div class="container mx-auto text-center space-y-6 px-4 animate-fadeIn">
+            <h1 class="md:text-5xl text-4xl font-extrabold leading-tight">Hardware-Level Accountability</h1>
+            <p class="text-lg opacity-90 max-w-2xl mx-auto">An impenetrable solution to help parents protect their smart kids online</p>
+            <a href="#products" class="inline-block bg-yellow-500 text-gray-900 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-yellow-600 transition-transform transform hover:scale-105">Get Started</a>
+        </div>
+    </section>
+
+  <!-- Why Accountability Laptops Section -->
+  <section id="how-it-works" class="bg-gray-100 py-20">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 space-y-10 md:space-y-0">
+
+        <!-- Right Content: Image -->
+        <div class="md:w-1/2 flex justify-center">
+            <img src="/src/images/couple7.png" alt="couple" class="w-3/4 h-auto">
+        </div>
+        
+        <!-- Left Content: Text and Cards -->
+        <div class="md:w-1/2 space-y-6 text-gray-800 animate-fadeIn">
+            <h2 class="md:text-4xl text-2xl font-semibold text-gray-800">Accountability Software Isn’t Working...</h2>
+            
+            <div class="space-y-4">
+                <div class="p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <h3 class="font-semibold text-lg text-gray-800">Software can be outsmarted</h3>
+                    <p class="text-gray-600">Kids can easily make changes to the hardware, affecting the software.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <h3 class="font-semibold text-lg text-gray-800">Smart kids are hacking it</h3>
+                    <p class="text-gray-600">A growing percentage of kids are workarounds to the protection.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <h3 class="font-semibold text-lg text-gray-800">Kids are left vulnerable</h3>
+                    <p class="text-gray-600">This leaves the system useless and the kids vulnerable.</p>
+                </div>
+            </div>
+
+            <a href="#products" class="mt-6 inline-block bg-yellow-500 text-gray-900 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-yellow-600 transition-transform transform hover:scale-105">Order Now</a>
+        </div>
+        
+    </div>
+</section>
+
+<section id="about" class="bg-white py-20 md:pt-40 md:pb-40">
+    <div class="container mx-auto text-center space-y-10 px-6 animate-fadeIn">
+        <h2 class="md:text-4xl text-2xl font-bold text-black">Hardware-Level Accountability: 
+        </h2>
+        <p class="text-lg text-black max-w-xl mx-auto">We provide devices that protect accountability software to give parents an impenetrable tool to help them protect their kids online. </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img src="/src/images/lock.svg" alt="Feature 1 Icon" class="w-16 h-16 mx-auto mb-4 text-yellow-500">
+                <h3 class="text-xl font-bold text-gray-800">Protected</h3>
+                <p class="text-gray-600">Monitoring software is encrypted onto the device, preventing workarounds</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img src="/src/images/user-check.svg" alt="Feature 2 Icon" class="w-16 h-16 mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800">Simple</h3>
+                <p class="text-gray-600">Arrives at your door with Screen Pigeon monitoring pre-loaded-all you have to do is connect it to your account</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img src="/src/images/child.svg" alt="Feature 3 Icon" class="w-16 h-16 mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800">Safe</h3>
+                <p class="text-gray-600">The Screen Pigeon dashboard allows you to securely access the screenshot remotely on your account</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Story Section -->
+  <section id="how-it-works" class="bg-gray-800 py-20">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 space-y-10 md:space-y-0">
+        
+        <!-- Left Content: Text and Cards -->
+        <div class="md:w-1/2 space-y-6 text-gray-800 animate-fadeIn">
+            <h2 class="md:text-4xl text-2xl font-semibold text-white">Our Story</h2>
+            
+            <div class="space-y-4">
+                <p class="text-white">We know you’ve been losing sleep over the safety of your children.
+                    We have too.</p>
+                <p class="text-white">Screen Pigeon was born when a few college guys got together and decided enough was enough. We’re tired of harmful industries taking advantage of young and vulnerable minds and we believe children deserve our best protection.</p>
+                <p class="text-white">So, we brought on a development team working in the tech industry for over 20 years to create the best possible technology to keep your children safe.</p>
+            </div>
+
+            <a href="#products" class="mt-6 inline-block bg-yellow-500 text-gray-900 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-yellow-600 transition-transform transform hover:scale-105">Order Now</a>
+        </div>
+
+        <!-- Right Content: Image -->
+        <div class="md:w-1/2 flex justify-center">
+            <img src="/src/images/aboutimage3.webp" alt="couple" class=" md:block hidden w-3/4 h-auto rounded-md">
+        </div>
+        
+    </div>
+</section>
+
+    <!-- How it Works Section with Half-Container Image -->
+<section id="how-it-works" class="bg-gray-100 py-20">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 space-y-10 md:space-y-0">
+
+        <!-- Right Content: Image -->
+        <div class="md:w-1/2 flex justify-center">
+            <img src="/src/images/superherocouple2.png" alt="Laptop with Screen Pigeon Interface" class="w-3/4 h-auto">
+        </div>
+        
+        <!-- Left Content: Text and Cards -->
+        <div class="md:w-1/2 space-y-6 text-gray-800 animate-fadeIn">
+            <h2 class="md:text-4xl text-2xl font-semibold text-gray-800">Protect Your Kids for Good</h2>
+            
+            <div class="space-y-4">
+                <div class="p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <h3 class="font-semibold text-lg text-gray-800">Step 1</h3>
+                    <p class="text-gray-600">Order a device.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <h3 class="font-semibold text-lg text-gray-800">Step 2</h3>
+                    <p class="text-gray-600">Sign in to your dashboard.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+                    <h3 class="font-semibold text-lg text-gray-800">Step 3</h3>
+                    <p class="text-gray-600">Rest easy knowing the device is protected.</p>
+                </div>
+            </div>
+
+            <a href="#products" class="mt-6 inline-block bg-yellow-500 text-gray-900 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-yellow-600 transition-transform transform hover:scale-105">Order Now</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Product Section with Showcase -->
+    <section id="products" class="bg-white py-20">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="md:text-4xl text-2xl font-bold text-gray-800">Screen Pigeon Devices</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+                <div class="p-8 bg-gray-50 shadow-lg rounded-lg hover:shadow-2xl transition duration-300">
+                    <img src="/src/images/splaptop5.jpg" alt="Laptop" class="w-full h-auto rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold text-gray-800">$580.00</h3>
+                    <p class="text-gray-600 mb-4">Standard Model - Great for school and home use.</p>
+                    <a href="https://buy.stripe.com/8wMdSR41ndA45Wg3cc" class="block bg-yellow-500 text-gray-900 px-4 py-2 rounded-full font-semibold hover:bg-yellow-600 transition duration-300">Order Now</a>
+                </div>
+                <!-- Repeat for other products -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact" class="bg-gray-800 text-white py-20">
+        <div class="container mx-auto text-center space-y-8 px-6">
+            <h2 class="md:text-4xl text-2xl font-bold">Contact Us</h2>
+            <p class="text-lg max-w-2xl mx-auto">Have questions? Reach out—we’re here to help!</p>
+            <form action="https://formspree.io/f/xvgpznzo" method="POST" class="max-w-xl mx-auto space-y-4">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-lg placeholder-white focus:ring-2 focus:ring-yellow-400" required>
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-lg placeholder-white focus:ring-2 focus:ring-yellow-400" required>
+                <textarea name="message" placeholder="Your Message" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-lg placeholder-white focus:ring-2 focus:ring-yellow-400" required></textarea>
+                <button type="submit" class="w-full bg-yellow-500 text-gray-900 px-4 py-2 rounded-full font-semibold hover:bg-yellow-600 transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer with Social Icons -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Screen Pigeon. All rights reserved.</p>
+            <div class="flex justify-center space-x-8 mt-4">
+                <a href="tos.html" class="hover:text-yellow-400">Terms of Service</a>
+                <a href="privacy-policy.html" class="hover:text-yellow-400">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/src/script.js"></script>
+
+</body>
+</html>
