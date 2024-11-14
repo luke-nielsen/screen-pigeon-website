@@ -2,7 +2,7 @@
 module.exports = {
     content: [
       "./src/**/*.{html,js,jsx,ts,tsx}", // No need to include image or CSS files
-      "./public/*.html",
+      "./docs/*.html",
     ],
     theme: {
       extend: {
