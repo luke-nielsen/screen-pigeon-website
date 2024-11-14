@@ -1,23 +1,21 @@
-// tailwind.config.js
 module.exports = {
-    content: [
-      "./src/**/*.{html,js,jsx,ts,tsx}", // No need to include image or CSS files
-      "./docs/*.html",
-    ],
-    theme: {
-      extend: {
-        keyframes: {
-          fadeIn: {
-            '0%': { opacity: '0' },
-            '100%': { opacity: '1' },
-          },
-        },
-        animation: {
-          fadeIn: 'fadeIn 1s ease-in forwards',
+  content: [
+    "./docs/**/*.html", // Matches all HTML files in the docs directory
+  ],
+  theme: {
+    extend: {
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
       },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-in forwards',
+      },
     },
-    plugins: [],
-  };
+  },
+  plugins: [],
+};
   
   
